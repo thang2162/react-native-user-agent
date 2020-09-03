@@ -8,16 +8,16 @@
 
 ## Getting Started Guide
 
-1. Add react-native-user-agent to your dependencies
+1. Add @thang2162/react-native-user-agent to your dependencies
 
 ```sh
-yarn add react-native-user-agent
+yarn add @thang2162/react-native-user-agent
 ```
 
 or, for npm use
 
 ```sh
-npm install react-native-user-agent --save
+npm install @thang2162/react-native-user-agent --save
 ```
 
 2. Link native dependencies
@@ -30,10 +30,10 @@ If you haven't set up cocoapods yet, please refer to [that article](https://engi
 
 2.2 **react-native < 0.60**
 
-You have to call `link` command manualy:
+You have to call `link` command manually:
 
 ```sh
-react-native link react-native-user-agent
+react-native link @thang2162/react-native-user-agent
 ```
 
 *For manual linking*, please refer to:
@@ -43,7 +43,7 @@ react-native link react-native-user-agent
 ## Usage
 
 ```javascript
-import UserAgent from 'react-native-user-agent';
+import UserAgent from '@thang2162/react-native-user-agent';
 
 UserAgent.getUserAgent(); //synchronous
 
@@ -75,17 +75,17 @@ For iOS:
 For Android:
 - systemName
 - systemVersion
-- applicatioName
+- applicationName
 - applicationVersion
 - buildNumber
 
 ## Versioning
 
 **Breaking History:**
-- [2.1.0](https://github.com/bebnev/react-native-user-agent/releases/tag/v2.1.0) - support for tvos
-- [2.0.0](https://github.com/bebnev/react-native-user-agent/releases/tag/v2.0.0) - supports [autolinking](https://github.com/react-native-community/cli/blob/master/docs/autolinking.md), native code refactoring, removes UIWebView, `getWebViewUserAgent()` returns promise
-- [1.0.6](https://github.com/bebnev/react-native-user-agent/releases/tag/v1.0.6) - First release
+- [2.1.0](https://github.com/thang2162/react-native-user-agent/releases/tag/v2.1.0) - support for tvos
+- [2.0.0](https://github.com/thang2162/react-native-user-agent/releases/tag/v2.0.0) - supports [autolinking](https://github.com/react-native-community/cli/blob/master/docs/autolinking.md), native code refactoring, removes UIWebView, `getWebViewUserAgent()` returns promise
+- [1.0.6](https://github.com/thang2162/react-native-user-agent/releases/tag/v1.0.6) - First release
 
 ## License
 
-[MIT](LICENSE). Copyright (c) 2018 Anton Bebnev.
+[MIT](LICENSE). Copyright (c) 2020 Tone T. Thangsongcharoen

@@ -1,26 +1,30 @@
 {
-  "name": "react-native-user-agent",
-  "version": "2.1.0",
+  "name": "@thang2162/react-native-user-agent",
+  "version": "2.1.1",
   "description": "Library that helps you to get mobile application user agent and web view user agent strings.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bebnev/react-native-user-agent.git"
+    "url": "https://github.com/thang2162/react-native-user-agent.git"
   },
   "keywords": [
     "react-native",
     "user-agent",
     "user agent",
     "http",
+    "thang2162",
+    "tone",
+    "Tone",
     "webView",
-    "httpUserAgent"
+    "httpUserAgent",
+    "rn"
   ],
-  "author": "Bebnev Anton <bambr.ab@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bebnev/react-native-user-agent/issues"
+    "url": "https://github.com/thang2162/react-native-user-agent/issues"
   },
-  "homepage": "https://github.com/bebnev/react-native-user-agent",
+  "homepage": "https://www.bithatchery.com",
+  "author": "Tone T. Thangsongcharoen (thang2162) <netguy87@gmail.com>",
   "peerDependencies": {
     "react-native": "*"
   }
